@@ -1,0 +1,180 @@
+#cv * {
+    box-sizing: border-box;
+    font-weight: bolder;
+  }
+#navbar{
+    padding-top:10px ;
+    text-align: center;
+    height: 25px;
+background-color: aliceblue;
+}
+#navbar a{
+    /* display: inline-block; */
+    margin: 20px;
+    color: black;
+    text-decoration: none;
+    font-size: 20px;
+    font-family: sans-serif;
+    font-weight: 600;
+}
+#navbar a:hover{
+color: aqua;
+text-decoration-line: underline;
+}
+
+
+/* cv */
+#cv{
+display:none ;
+padding: 10px;
+position: absolute;top:10px;right: 35%;left: 20% ;
+
+}
+#cv:target{
+display: block;
+}
+
+
+/* ido */
+#ido{
+    display:none ;
+    padding: 10px;
+    position: absolute;top:10px;right: 35%;left: 20% ;
+    }
+    #ido:target{
+    display: block;
+    }
+
+    #ido img{
+        transition: transform .3s;
+
+    }
+    #ido img:hover {
+        transform: scale(1.2);
+    } 
+
+
+
+
+
+
+/* skills*/
+ 
+
+#skills{
+    display:none ;
+    padding: 0px;
+    position: relative;top:10px;right: 35%;left: 20% ;
+    } 
+#skills:target{
+    display: block;
+    overflow: hidden;
+    } 
+ 
+
+
+
+  /* goodat section */
+  #goodat{
+    display:none ;
+    padding: 0px;
+    position: relative;top:10px;right: 35%;left: 20% ;
+    } 
+#goodat:target{
+    display: block;
+    overflow: hidden;
+    } 
+#goodat div{
+text-align: center;
+font-size: 50px;
+transition: transform .2s;
+}
+#goodat div:hover{
+
+    transform: scale(1.5);
+color: blue;
+}
+/* contactus  */
+
+#contactus{
+    display:none ;
+    padding: 0px;
+    position: relative;top:10px;right: 35%;left: 20% ;
+    } 
+#contactus:target{
+    display: block;
+    overflow: hidden;
+    } 
+
+
+
+    /* feed back */
+    #feedback{
+        display:none ;
+        padding: 0px;
+        position: absolute;top:10px;right: 35%;left: 20% ;
+        } 
+    #feedback:target{
+        display: block;
+        overflow: hidden;
+        } 
+        #thank{
+            display:none ;
+            padding: 0px;
+        }
+        #thank:target{
+            display: block;
+            overflow: hidden;
+        }
+
+
+        /* overviwe */
+
+
+        #slider{
+
+     display:none ;
+        padding: 0px;
+        position: relative;top:10px;right: 35%;left: 20% ;
+        
+            
+        }
+        #slider:target{
+
+ display: block;
+        overflow: hidden;
+        }
+
+#slider ul{
+    padding: 0px;
+    margin: 5px;
+list-style:none ;
+width: 2750px;
+/* height: 500px ; */
+position: relative;
+animation: sliding 9s ease-in-out infinite ;
+}
+#slider ul li{
+
+float: left;
+position: relative;
+}
+@keyframes sliding{
+    0%{left:0;}
+    30%{left:-550px;}
+    50%{left:-1100px;}
+    70%{left:-1650px;}
+    90%{left:-2250px;}
+   
+
+
+
+
+}
+
+
+
+
+
+
+
